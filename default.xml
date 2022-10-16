@@ -18,11 +18,7 @@
            fetch="https://gitlab.com/" />
   
   <remote  name="rearrow"
-
            fetch="https://github.com/reArrowOS"
-
-           review="https:/
-
            revision="refs/heads/arrow-13.0" />
 
   <remote  name="arrow"
