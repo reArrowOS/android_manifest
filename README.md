@@ -10,13 +10,13 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-13.0
+repo init -u https://github.com/reArrowOS/android_manifest.git -b arrow-13.0
 ```
 
 Then sync up:
 
 ```bash
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 Building the System
